@@ -1,0 +1,32 @@
+aid: urban-observatory
+name: Urban Observatory
+description: "The largest set of publicly available real time urban data in the UK"
+url: https://urbanobservatory.ac.uk
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Open Data"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Open Data
+  - Public APIs
+apis:
+  - name: Urban Observatory
+    description: "The largest set of publicly available real time urban data in the UK"
+    humanURL: https://urbanobservatory.ac.uk
+    baseURL: https://urbanobservatory.ac.uk
+    tags:
+      - Open Data
+    properties:
+      - type: Documentation
+        url: https://urbanobservatory.ac.uk
+common:
+  - type: Website
+    url: https://urbanobservatory.ac.uk
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
